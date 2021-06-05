@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeDecod</title>
+</head>
+<body>
+        
+        <main>
+        <div class="container">
+            <header>
+                <label for="codificador">Escolha um codificador:</label>
+                    <select name="codificador" id="codificador" >
+                    <option value="base64">Base 64</option>
+                    <option value="cifradecesar">Cifra de César</option>
+
+                    <div id="desloc">
+                        <input type="number" name="deslocamento" id="deslo" class="des">  
+                        <div id="insira" class="dsl" >insira o deslocamento</div>  
+       </div>
+                    
+                </header>
+    
+                <div class="btns">
+    
+                    <input type="radio" id="btncod" name="radiobutton" class="cod">
+                    <label for="codificar">Codificar</label><br>
+            
+                    <input type="radio" id="btndecod" name="radiobutton" class="decod">
+                    <label for="decodificar">Decodificar</label><br>
+            
+    
+                    <button class="invalido invisível"  id="codificar">CODIFICAR</button>
+                    <button class="semuso" id="decodificar">DECODIFICAR</button>
+            
+          
+                
+                  <div class="item">
+                <p><strong>Digite sua mensagem</strong>  </p>
+            
+                <input id="elemento" type="text">
+    
+            </div>
+    
+            <div class="msncod">
+            <p class="final"><strong>Mensagem codificada</strong></p>
+    
+            <p id="resultado"></p>
+        </div>
+    </div>
+    
+    </main>  
+                </div>
+    
+        </select>
+        
+          <div class="item">
+                <p><strong>Codifique sua mensagem</strong>  </p>
+            
+                <input id="elemento" type="text">
+    
+            </div>
+    
+            <div class="msncod">
+            <p id="resultado"></p>
+        </div>
+    </div>
+    
+    </main>  
+            <script src="basecifra.js"></script>
+    </body>
+    </html>
+</body>
+</html>
